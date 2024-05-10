@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/DataPOC/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDatabaseConnection_Data_CB7130C275",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/datapocdbserver/databases/DataPOC_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DatabaseConnection_DataPOC"
+    }
+  }
+}
